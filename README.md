@@ -25,3 +25,7 @@ Edit `index.html` and add your class notes, making sure to use elements appropri
 ## Submission
 
 Please make a screen recording through Zoom or any other screen-recording application of your choice. Walk us through both the code you wrote for this project as well as the visual output. Upload this video walkthrough to a video sharing service of your choice (unlisted YouTube video, Google Drive, etc.) and submit the share link [here](https://docs.google.com/forms/d/e/1FAIpQLSdFjVA9YL9c1beaSARgmDG9oXkddgWYic4UlTe9Xrn5rlRxjw/viewform?usp=sf_link). This is all you have to do for the submission!
+
+## Attributions
+
+Thanks to Eric Yoon for designing this PSET!
