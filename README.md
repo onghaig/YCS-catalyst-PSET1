@@ -15,12 +15,12 @@ Find some notes from a class you're taking right now. Now, your job is to conver
 Edit `index.html` and add your class notes, making sure to use elements appropriately.
 
 ## Requirements
-- At least three h1, h2, or h3 elements
-- At least one bulleted or numbered list
-- At least one image
+x At least three h1, h2, or h3 elements
+x At least one bulleted or numbered list
+x At least one image
     - Challenge: can you make this image in-line with the text, instead of breaking it up?
-- At least one link to a website that would help you understand the material better
-- Use bold, italics, and underlines in your text
+x At least one link to a website that would help you understand the material better
+x Use bold, italics, and underlines in your text
 
 ## Submission
 

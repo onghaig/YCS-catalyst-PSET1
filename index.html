@@ -1,11 +1,92 @@
-<html></html>
+<html style="font-family:Verdana, Geneva, Tahoma, sans-serif;"></html>
     <head>
-        <title>Class Notes for PHYS 200</title>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+            });
+        </script>
+        <script type="text/javascript" async 
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <style>
+            body {
+                background-color: rgb(255, 255, 255);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            h1, h2 {
+                text-align: center;
+                margin: 30px;
+            }
+            p {
+                text-align: left;
+                margin: 40px;
+            }
+            ul,ol {
+                text-align: left;
+                margin: 50px;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            h3 {
+                margin-left: 40px;
+            }
+        </style>
+        <title>Class Notes for Math 120, Lesson 14.7</title>
     </head>
 
-    <body>
-        <h1>Class Notes for PHYS 200</h1>
-        <h2>Center of Mass: </h2>
-
+    <body style="background-color:rgb(255, 255, 255);">
+        <h1>Class Notes for Math 120, Lesson 14.7</h1>
+        <h2>14.7 - Maximum and Minimum Values:</h2>
+        <p>This section explores how to find and classify the maximum and minimum values of multivariable functions, also known as extremum points. In multivariable calculus, we are often interested in identifying where a function reaches its highest or lowest value in a given region. To do this, we use partial derivatives to find critical points, where the gradient (the vector of partial derivatives) is equal to zero or undefined. These points are candidates for local maxima, local minima, or saddle points.</p>
+    
+    <ul>
+        <li>Just as in single-variable calculus, we can find maximum and minimum values in 2d functions.</li>
+        <li>Absolute Max/Min- greatest values found in the <u>whole function</u>, requires that the function is <u>closed and bounded</u> (see later) </li>
+        <li>Local Max/Min - Peaks of min and maximum</li>
+        <li>Saddle points- points where depending on which direction you are going, are a maximum or a minimum</li>
+        <li>For a local maximum or minimum to occur, the partial derivatives must = 0. These are also called critical points</li>
+    </ul>
+    <img src="https://calcworkshop.com/wp-content/uploads/global-extrema.png" alt="A multivariable function with appropriately labeled extrema">
+        <h3>Second Derivative Test:
+        </h3>
+    <ul>
+        <li>Given that second partial derivatives exist, (a,b) is a critical point (the partial derivatives in both x and y = 0),</li>
+        <li>
+            Define the discriminant $D$ at $(a, b)$ as:
+            \[
+            D = f_{xx}(a, b)f_{yy}(a, b) - (f_{xy}(a, b))^2
+            \]
+        </li>
+    </ul>
+    <p>
+        The second partial derivatives test states:
+        <ul>
+            <li><i>If $D > 0$ and $f_{xx}(a, b) > 0$, then $f$ has a local minimum at $(a, b)$.</i></li>
+            <li><i>If $D > 0$ and $f_{xx}(a, b) < 0$, then $f$ has a local maximum at $(a, b)$.</i></li>
+            <li><i>If $D < 0$, then $f$ has a saddle point at $(a, b)$.</i></li>
+            <li><i>If $D = 0$, the test is inconclusive.</i></li>
+        </ul>
+    <p>To test for local minimums or maximums: we can find critical points by setting the partial derivatives equal to zero
+    and evaluating the second partial derivative test at these points.         
+    </p>
+    <h3>
+    <b>Absolute Maximum and Minimum Values</b>
+    </h3>
+        <ul>
+            <li>In order to find absolute extrema, the function must be both a closed and bounded set</li>
+            <li>Closed: a closed set in R3 is one that contains all its boundary points</li>
+            <li>Bounded set - one that is contained within a possible disk, it is finite in extent.</li> 
+        </ul>
+    <h3>How to find absolute extrema:</h3>
+        <ol>
+            <li>Find the values of $F$ at the critical points of $f$ in $D$</li>
+            <li>Find the extreme values of $F$ on the boundary of $D$</li>
+            <li>Find the largest of those values from the first two steps; and smallest, those are min/max</li>
+        </ol>
+        <a href="https://tutorial.math.lamar.edu/classes/calciii/relativeextrema.aspx">To learn more about finding Extrema, read here</a> 
     </body>
 </html>
